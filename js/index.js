@@ -10,7 +10,7 @@ fetchData()
   });
 
 function fetchData() {
-  return fetch('/ZonAnn.Ts+dSST.csv').then(response => response.text());
+  return fetch('./ZonAnn.Ts+dSST.csv').then(response => response.text());
   }
 
 function parseData(data) {
